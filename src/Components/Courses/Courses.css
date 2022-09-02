@@ -1,0 +1,296 @@
+/*! course list ====================================================== */
+.courseList {
+  width: 99vw;
+}
+.CardsList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70vw;
+  margin: 0px auto;
+}
+/* Cards in list page */
+.listCard {
+  width: 390px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+  border: 1px solid black;
+  align-items: center;
+}
+.listImage {
+  width: 100%;
+  height: 240px;
+  margin: 0 auto;
+}
+.listCardInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.cardBtn {
+  display: flex;
+  align-items: center;
+  padding: 1px 8px;
+  gap: 10px;
+  width: 99px;
+  height: 23px;
+  background: #7772f1;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+  border: none;
+}
+.listCardInfo h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  color: #1e212c;
+}
+.listCardPrice {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ff4242;
+}
+.listCardAuthor {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #787a80;
+}
+.listHead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cardText {
+  display: flex;
+}
+/* !Course Detail style ========================================*/
+
+.detailsPage {
+  width: 99vw;
+  display: flex;
+  flex-direction: column;
+}
+.detHeader {
+  height: 370px;
+  width: 99vw;
+  background: rgb(242, 217, 217);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(242, 217, 217, 1) 0%,
+    rgba(240, 69, 104, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(242, 217, 217, 1) 0%,
+    rgba(240, 69, 104, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(242, 217, 217, 1) 0%,
+    rgba(240, 69, 104, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f2d9d9",endColorstr="#f04568",GradientType=1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1e212c;
+  margin-top: 20px;
+}
+.aboutHead {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  color: #1e212c;
+}
+.courseDesc {
+  width: 400px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+
+.points {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+.detailsData {
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  color: #ff3f3a !important;
+}
+.detailsDataTop {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #1e212c;
+  margin-top: 20px;
+}
+
+.aboutCourse {
+  width: 80vw;
+  margin: 10vh auto;
+  display: flex;
+  justify-content: space-around;
+}
+.aboutCourseLeft {
+  margin: 40px 0;
+}
+.aboutCourseLeftTop {
+  margin-bottom: 40px;
+}
+.aboutCourseRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.authorImage {
+  width: 30vw;
+}
+.medias__About {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 45px 0 0 0;
+  background-color: #1e212c;
+  width: 200px;
+}
+
+.aboutAuthor {
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.authorName {
+  margin-bottom: 30px;
+}
+.autorDescription {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.learning {
+  width: 85vw;
+  margin: 70px auto;
+  display: flex;
+  flex-direction: column;
+}
+.learningHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.learningMain {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  gap: 15px;
+}
+.number {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  color: #d7dadd;
+}
+.blockLearning {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* paginate */
+.paginationBttns {
+  width: 80%;
+  height: 10%;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 5% auto;
+}
+
+.paginationBttns a {
+  padding: 10%;
+  margin: 10% 8px;
+  border-radius: 5px;
+  border: 1.5px solid rgba(0, 145, 212, 0.904);
+  color: black;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: rgba(0, 145, 212, 0.904);
+}
+
+.paginationActive a {
+  color: white;
+  background-color: rgba(0, 145, 212, 0.904);
+}
+
+.courseListBody {
+  display: flex;
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .courseListBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 425px) {
+  .courseListBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .CardsList {
+    width: 80vw;
+    margin: 0 auto;
+  }
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
+  justify-content: center;
+}

@@ -1,0 +1,238 @@
+.homeHeader {
+  width: 99vw;
+  height: 99vh;
+}
+.homeHeader {
+  width: 99vw;
+  height: 90vh;
+  background-color: #f8d4d3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.homeHeadTop {
+  display: flex;
+  align-items: center;
+  width: 90vw;
+  margin: 0 auto;
+  justify-content: space-evenly;
+}
+.headPoint {
+  display: flex;
+  margin-bottom: 30px;
+}
+h1 {
+  text-align: start;
+}
+.headPointSpan {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  display: flex;
+  align-items: center;
+  color: #1e212c;
+}
+.homeHeadText {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1e212c;
+  margin-right: 13px;
+}
+.homeHeadBottom {
+  display: flex;
+  width: 98vw;
+  justify-content: space-evenly;
+  margin-top: 130px;
+}
+
+.desc {
+  display: flex;
+  width: 99vw;
+  justify-content: space-evenly;
+  height: 70vh;
+  margin: 30px 0;
+  align-items: center;
+}
+.descLeft {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.descText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #424551;
+}
+
+.benefits {
+  width: 99vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+}
+.benefitsTop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.benefitsBottom {
+  display: flex;
+  width: 99vw;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.benefitsLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* ================================================== */
+.certificate {
+  display: flex;
+  width: 99vw;
+  justify-content: space-around;
+}
+.certificateLeft {
+  width: 30vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  height: 50vh;
+}
+.unis {
+  width: 30vw;
+  display: flex;
+  justify-content: space-around;
+}
+.certificateImg {
+  box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.16),
+    0px 30px 24px -10px rgba(154, 156, 165, 0.1),
+    0px 12px 10px -6px rgba(154, 156, 165, 0.08),
+    0px 4px 4px -4px rgba(30, 33, 44, 0.05);
+  border-radius: 4px;
+  width: 40vw;
+}
+/* ====================================== */
+.team {
+  height: 60vh;
+  margin: 50px 0;
+}
+.teamBottom {
+  margin: 20px auto;
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+}
+.teamHead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* ===================================================== */
+.subscribe {
+  background-color: #f8d4d3;
+  display: flex;
+  width: 99vw;
+  justify-content: space-between;
+  height: 40vh;
+  align-items: flex-end;
+}
+.botPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 40vh;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1440px) {
+  #illustration {
+    width: 50%;
+    margin-top: 20%;
+  }
+  #girl {
+    width: 50%;
+    margin-top: 20%;
+  }
+  .certificate {
+    margin-top: 20%;
+  }
+  .subscribe {
+    margin-top: 25%;
+  }
+  #hats {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .teamBottom {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .homeHeader {
+    justify-content: flex-start;
+    height: 120vh;
+  }
+  .subscribe {
+    margin-top: 65%;
+  }
+  .homeHeadText {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .homeHeadBottom {
+    display: none;
+  }
+  .benefitsBottom {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .certificate {
+    margin-top: 50%;
+  }
+  .subscribe {
+    margin-top: 95%;
+  }
+}
+@media screen and (max-width: 670px) {
+  .certificate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .certificateLeft {
+    width: 100%;
+  }
+
+  .homeHeadText {
+    font-size: 20px;
+  }
+  #pic1 {
+    width: 80%;
+  }
+  .desc {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 626px) {
+  .subscribe {
+    margin-top: 250%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .benefits {
+    margin-top: 200px;
+  }
+}
